@@ -1,6 +1,9 @@
 name: Test Project
-on: workflow_dispatch
-
+on:
+  push:
+    branches:
+      - main  # Change to the branch you want to trigger the workflow on push
+  workflow_dispatch:
 jobs:
   test:
     runs-on: ubuntu-latest
