@@ -2,7 +2,7 @@ name: Test Project
 on:
   push:
     branches:
-      - main  # Change to the branch you want to trigger the workflow on push
+      - master
   workflow_dispatch:
 jobs:
   test:
